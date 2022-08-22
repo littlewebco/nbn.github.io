@@ -282,8 +282,8 @@ if(jQuery("#popuppfirsttime").length > 0) {
 //----------------------------------------------------/	
 	$(function() {
 		$(".drop-menu-item.dropdown").on('mouseenter mouseleave', function(e) {
-			if($('.coodiv-menu-dropdown', this).length) {
-				var elm = $('.coodiv-menu-dropdown', this);
+			if($('.cool-menu-dropdown', this).length) {
+				var elm = $('.cool-menu-dropdown', this);
 				var off = elm.offset();
 				var l = off.left;
 				var w = elm.width();
