@@ -127,30 +127,83 @@
                                 <script src="script.js"></script>
                                 
                                <input type="text" class="domain-search-input-header pl-6" placeholder="Enter domain" value="" onKeyDown="handleKeyDown()" ></input>
-                                
-                                <h1 class="title cool-text-5 mb-5 text-center">
-                                    How to set up .lilnode sites</h1>
-                                    <p class="cool-text-9 mb-11 text-center">
-                                      <ul class="list-unstyled">
-                                          <li>
-                                            (1) Handshake web hosting options include using a personal <a href="https://github.com/pinheadmz/handout">webserver</a>, <a href="https://www.instructables.com/Nginx-DANE-Hosting-on-Google-VM-for-Handshake/">NGINX + Google VM</a> or <a href="https://docs.ipfs.tech/how-to/websites-on-ipfs/link-a-domain/#handshake">IPFS</a>.
-                                            </li>
-                                        </br>
-                                            then
-                                            <br></br>
-                                            (2a) Connect your domain by adding name records directly on Ethereum
-                                            <br></br>
-                                            or
-                                            <br></br>
-                                            (2b) Point NS records to a <a href="https://hshub.io/">public</a> or <a href="https://github.com/pinheadmz/handout">self-hosted</a> nameserver to add records off-chain
-                                        <br></br></ul></p>
                                       
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+<!-- start footer container -->
+<div class="container">
+    <!-- start row -->
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-10 col-lg-6 col-xl-5">
+            <div class="section-title content-text mb-13 mb-lg-16">
+                <h2 class="title coodiv-text-5 mb-6">How do I setup a website ?</h2>
+                <p class="coodiv-text-8">Use our FAQ below</p>
+            </div>
+        </div>
 
+        <!-- FAQ dinamic filter -->
+        <div class="col-md-10 col-lg-6 col-xl-6 offset-xl-1 mt-9 mt-lg-0" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+            <div class="dinamic-filter-container">
+                <i class="fas fa-search"></i>
+                <input type="text" id="dinamic-filter-input" onkeyup="FilterListSection()" placeholder="Search for questions here.." />
+            </div>
+            <div class="dinamic-filter-list-container">
+                <div class="filter-content-box" id="go-to-qst-01-content">
+                    <span class="filter-content-close" data-toggle="tooltip" data-placement="bottom" data-original-title="close">
+                        <span class="first-stright"></span>
+                        <span class="second-stright"></span>
+                    </span>
+                    <h5>Where can I host my handshake website ?</h5>
+                    <p>Handshake web hosting options include using a personal <a href="https://github.com/pinheadmz/handout">webserver</a>, <a href="https://www.instructables.com/Nginx-DANE-Hosting-on-Google-VM-for-Handshake/">NGINX + Google VM</a> or <a href="https://docs.ipfs.tech/how-to/websites-on-ipfs/link-a-domain/#handshake">IPFS</a>.</p>
+                </div>
+                <div class="filter-content-box" id="go-to-qst-02-content">
+                    <span class="filter-content-close" data-toggle="tooltip" data-placement="bottom" data-original-title="close">
+                        <span class="first-stright"></span>
+                        <span class="second-stright"></span>
+                    </span>
+                    <h5>How do I get an Handshake Domain ?</h5>
+                    <p>
+                        Search for it on <a href="https://namebase.io">namebase.io</a>
+                    </p>
+                </div>
+               
+
+                <div class="filter-content-box" id="go-to-qst-03-content">
+                    <span class="filter-content-close" data-toggle="tooltip" data-placement="bottom" data-original-title="close">
+                        <span class="first-stright"></span>
+                        <span class="second-stright"></span>
+                    </span>
+                    <h5>Where can I host my domains DNS</h5>
+                    <p>Connect your domain by adding name records directly on Ethereum
+            <br></br>
+            or
+            <br></br>
+            Point NS records to a <a href="https://hshub.io/">public</a> or <a href="https://github.com/pinheadmz/handout">self-hosted</a> nameserver to add records off-chain</p>
+                </div>
+                <ul id="dinamic-filter-list">
+                    <li>
+                        <a id="go-to-qst-02">How do I get a Handshake Domain ? <i class="fas fa-angle-right"></i></a>
+                    </li>
+                    <li>
+                        <a id="go-to-qst-01">Where Can I host my Handshake website ? <i class="fas fa-angle-right"></i></a>
+                    </li>
+                    <li>
+                        <a id="go-to-qst-03">How do I use DNS ?<i class="fas fa-angle-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END FAQ dinamic filter -->
+    </div>
+    <!-- END row -->
+
+</div>
+<!-- END container -->
+</div>
+<!-- END FAQ section -->
  <!-- Footer Start-->
  <div class="dark-mode-texts bg-box-gradient-1 overflow-hidden position-relative">
     <svg class="bg-wave-box-end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
