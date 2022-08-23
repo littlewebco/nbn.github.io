@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function handleKeyDown() {
     if (event.key === 'Enter') {
-      location.href = "https://nbn-service-check.vercel.app/check?address=" + event.target.value;
+      location.href = "https://nbn-service-check.deta.dev/check?address=results" + event.target.value;
     }
   };
 
