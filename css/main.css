@@ -564,10 +564,10 @@ a.headerphone-number {position: absolute;left: 0;bottom: -24px;height: auto;min-
 .hero-area-cool .header-hero-backgrounds .montains-01{background:url(../image/header/mount/mount-1.png) no-repeat;position:absolute;right:0;bottom:0;width:780px;height:550px;overflow:hidden;background-size:cover}
 .hero-area-cool .header-hero-backgrounds .montains-02{background:url(../image/header/mount/mount-2.png) no-repeat;position:absolute;right:493px;bottom:0;overflow:hidden;width:804px;height:596px}
 .hero-area-cool .header-hero-backgrounds .header-erath{background:url(../image/header/earth.png) no-repeat;position:absolute;left:-170px;top:-130px;width:773px;height:287px;overflow:hidden}
-.hero-area-cool .t-first{left:105px;top:30px;position:absolute}
-.hero-area-cool .t-first img{width:80px}
+.hero-area-cool .t-first{left:80px;top:250px;position:absolute}
+.hero-area-cool .t-first img{width:100px}
 .hero-area-cool .t-second{right:160px;top:190px;position:absolute}
-.hero-area-cool .t-second img{width:70px}
+.hero-area-cool .t-second img{width:80px}
 .hero-area-cool .shape-3 img,.hero-area-cool .shape-2 img,.hero-area-cool .shape-1 img{opacity:.3}
 .hero-area-cool #particles-bg{opacity:.3;position:absolute;z-index:0;top:0;width:100%}
 .hero-helf-2-btns{display:flex}
