@@ -10,6 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	if(jQuery("#dinamic-filter-list").length > 0) {FilterListSection();}
 });
 
+/*------------------------------------------------------------------
+
+ * search function
+ -------------------------------------------------------------------*/
+
+function handleKeyDown() {
+    if (event.key === 'Enter') {
+      location.href = "https://nbn-service-check.deta.dev/check?address=" + event.target.value;
+    }
+  };
 
 	
 	
