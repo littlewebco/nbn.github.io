@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------
  * template Name: Cool Domain Search
- * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS template
+ * Description: A Bootstrap Responsive Template
  * CSS File Version: 1.0
  * Bootstrap v4.5.0 (http://getbootstrap.com)
  -------------------------------------------------------------------*/
@@ -549,7 +549,7 @@ a.headerphone-number {position: absolute;left: 0;bottom: -24px;height: auto;min-
 .header-border-bottom{position:absolute;top:0;left:0;width:100%;z-index:1;height:130px;background:transparent;border-bottom:1px solid #e5eaec}
 .header-shadow-bottom{position: absolute;top: 0;left: 0;width: 100%;z-index: 1;height: 130px;background: rgb(22 22 23 / 11%);background: linear-gradient(180deg, #1b1d1d8c 11%, transparent 100%);}
 .header-white-bg{background:#fff;border-bottom:1px solid #f2f5f6}
-.brand-logo>a>img,.brand-logo-signup>a>img{height:80px}
+.brand-logo>a>img,.brand-logo-signup>a>img{height:50px}
 .header-google-map{position:absolute!important;top:0;left:0;right:0;bottom:0;height:auto!important;z-index:0}
 .header-google-map-height{height:700px}
 .map-height-lose-header{height:250px}
