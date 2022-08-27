@@ -17,7 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function handleKeyDown() {
     if (event.key === 'Enter') {
-      location.href = "https://nbn-service-check.deta.dev/check?address=results" + event.target.value;
+		const myDiv = document.getElementById("timsid");
+		myDiv.innerHTML = `<b>Loading</b>`;
+		fetch("https://nbn-service-check.deta.dev/check?address=" + event.target.value)
+			.then((response) => response.json())
+			.then((data) => { 
+				console.log({body: data.body});
+				
+				
+				myDiv.innerHTML = `<b>Primary Access Technology:</b>${data.body.primaryAccessTechnology}<br/><br/>`
+				myDiv.innerHTML += `<b>Active Ports:</b>${data.body.cntActivePort}<br/><br/>`
+				myDiv.innerHTML += `<b>Location ID:</b>${data.body.locationId}<br/><br/>`
+				myDiv.innerHTML += `<b>Servcice Address:</b>${data.body.street}, ${data.body.city}, ${data.body.postcode}<br/><br/>`
+			})
+		;
+    //   location.href = "https://nbn-service-check.deta.dev/check?address=results" + event.target.value;
     }
   };
 
