@@ -28,7 +28,7 @@ function handleKeyDown() {
 				myDiv.innerHTML = `<b>Primary Access Technology:</b>${data.body.primaryAccessTechnology}<br/><br/>`
 				myDiv.innerHTML += `<b>Active Ports:</b>${data.body.cntActivePort}<br/><br/>`
 				myDiv.innerHTML += `<b>Location ID:</b>${data.body.locationId}<br/><br/>`
-				myDiv.innerHTML += `<b>Servcice Address:</b>${data.body.street}, ${data.body.city}, ${data.body.postcode}<br/><br/>`
+				myDiv.innerHTML += `<b>Servcice Address:</b>${data.body.street}, ${data.body.suburb}, ${data.body.postcode}, ${data.body.state}<br/><br/>`
 			})
 		;
     //   location.href = "https://nbn-service-check.deta.dev/check?address=results" + event.target.value;
